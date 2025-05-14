@@ -23,11 +23,14 @@
   "vue.server.hybridMode": "auto",
   "eslint.format.enable": true,
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "vscode.json-language-features" // Prettier se encargará de esto más adelante
   },
   "[scss]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
+    "editor.defaultFormatter": "vscode.css-language-features" // Prettier podría encargarse también
   },
-  "rust-analyzer.initializeStopped": true,
-  "java.server.launchMode": "LightWeight"
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
+  }
+  // "rust-analyzer.initializeStopped": true, // Considerar eliminar
 }

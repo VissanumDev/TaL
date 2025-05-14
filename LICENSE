@@ -1,10 +1,8 @@
 BSD 3-Clause License
 
-Fork from https://github.com/NitroRCr/AIaW repository with the same license.
-
-Original license:
-
-Copyright (c) 2025, NitroRCr
+Portions Copyright (c) 2024, NitroRCr (for the original AIaW code)
+Copyright (c) 2025, VissanumDev (for modifications and new contributions in TaL)
+All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -30,3 +28,10 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---
+TaL (Tu agente Local) is a fork of AIaW (https://github.com/NitroRCr/AIaW),
+which is also licensed under the BSD 3-Clause License.
+The original license terms from AIaW apply to the relevant parts of this codebase.
+Modifications and new contributions specific to TaL are made by VissanumDev
+and are covered by this BSD 3-Clause License.
