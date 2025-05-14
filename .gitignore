@@ -7,20 +7,25 @@ node_modules
 /dist
 /quasar.config.*.temporary.compiled*
 
-# Cordova related directories and files
-/src-cordova/node_modules
-/src-cordova/platforms
-/src-cordova/plugins
-/src-cordova/www
+# Cordova specific (AIaW remnant - TaL is Tauri-first. Consider removing if no plans for Cordova)
+# /src-cordova/
 
-# Capacitor related directories and files
-/src-capacitor/www
-/src-capacitor/node_modules
+# Capacitor specific (AIaW remnant - TaL is Tauri-first. Consider removing if no plans for Capacitor)
+# /src-capacitor/
+# capacitor.config.ts # If you decide to remove Capacitor completely
+# android/ # If you decide to remove Capacitor/Android completely
+# ios/ # If you decide to remove Capacitor/iOS completely
+
+# Vitepress
+/docs/.vitepress/cache
+/docs/.vitepress/dist
+.aider*
 
 # Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
 # Editor directories and files
 .idea
@@ -31,18 +36,12 @@ yarn-error.log*
 
 # local .env files
 .env.local*
+.env.*.local
 
-# Code counter
+# Code counter (if not needed by Dev Env)
 .VSCodeCounter
 
-# Deploy config
-/deploy
+# Python backend (AIaW remnant - TaL backend is in src-tauri)
+# /src-backend/
 
-# Dexie cloud
-/dexie-cloud.json
-/dexie-cloud.key
 
-# Vitepress
-/docs/.vitepress/cache
-/docs/.vitepress/dist
-.aider*
