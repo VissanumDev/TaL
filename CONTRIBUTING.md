@@ -42,7 +42,7 @@ Consulta el archivo [`DEVELOPMENT_ENVIRONMENT.md`](https://github.com/VissanumDe
 
 Utilizamos un flujo de trabajo basado en ramas (Git Flow simplificado).
 
-* **Rama Principal (`main`):** Contiene la última versión estable y liberada.
+* **Rama Principal (`main`):** Contiene la última versión estable y liberada. Las nuevas releases se generan fusionando la rama develop (una vez estabilizada) en main.
 * **Rama de Desarrollo (`develop`):** Es la rama de integración principal para las funcionalidades en curso. Las ramas de trabajo se crean a partir de `develop`.
 * **Ramas de Trabajo:** Crea una rama específica para cada tarea (funcionalidad, bugfix, tarea de mantenimiento) partiendo siempre de `develop`.
 
